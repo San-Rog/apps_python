@@ -6,6 +6,7 @@ def main():
     st.header('Tutorial Streamlit - Heroku')
     st.write('Esta é uma página de teste.')
     st.write(os.getcwd())
+    st.write(os.listdir('direct'))
 
 if __name__ == '__main__':
     main()
